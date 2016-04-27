@@ -8,6 +8,7 @@ class Seedling_production extends admin {
 	{
 		parent:: __construct();
 		$this->load->model('seedling_production_model');
+		$this->load->model('admin/users_model');
 	}
     
 	

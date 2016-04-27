@@ -18,6 +18,45 @@ class Users_model extends CI_Model
 		$this->db->where($where);
 		return $this->db->count_all_results();
 	}
+
+
+	/*
+	*	Count all items from a table
+	*	@param string $table
+	* 	@param string $where
+	*
+	*/
+	public function count_items_where($table, $where, $select = NULL ,$limit = NULL)
+	{
+		if($limit != NULL)
+		{
+			$this->db->limit($limit);
+		}
+		if($select != NULL)
+		{
+			$this->db->select($select);
+		}
+		
+		$this->db->where($where);
+		if($select != NULL)
+		{
+			$query = $this->db->get($table);
+
+			$row = $query->result();
+			$number= $row[0]->number;
+			if($number == NULL) 
+			{
+				$number = 0;
+			}
+			// var_dump($number); die();
+			return $number;
+		}
+		else
+		{
+			$this->db->from($table);
+			return $this->db->count_all_results();
+		}
+	}
 	
 	/*
 	*	Retrieve all users

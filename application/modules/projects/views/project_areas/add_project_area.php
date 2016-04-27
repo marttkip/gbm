@@ -23,56 +23,50 @@
         
         <?php echo form_open($this->uri->uri_string(), array("class" => "form-horizontal", "role" => "form"));?>
         <div class="row">
-        	<div class="col-sm-6">
+        	<div class="col-md-6">
                 <!-- Company Name -->
                 <div class="form-group">
-                    <label class="col-lg-4 control-label">Name</label>
-                    <div class="col-lg-6">
-                        <input type="text" class="form-control" name="project_area_name" placeholder="Name" value="<?php echo set_value('project_area_name');?>" required>
+                    <label class="col-lg-2 control-label">Name</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" name="project_area_name" placeholder="Project Area" value="<?php echo set_value('project_area_name');?>" required>
                     </div>
                 </div>
-                 <div class="form-group">
-                    <label class="col-lg-4 control-label">Activate?</label>
-                    <div class="col-lg-6">
+                
+            </div>
+            
+        	<div class="col-md-6">
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">Activate?</label>
+                    <div class="col-lg-10">
                         <div class="radio">
                             <label>
                                 <input id="optionsRadios1" type="radio" checked value="1" name="project_area_status">
                                 Yes
                             </label>
-                        </div>
-                        <div class="radio">
-                            <label>
+                              <label>
                                 <input id="optionsRadios2" type="radio" value="0" name="project_area_status">
                                 No
                             </label>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-        	<div class="col-sm-6">
-        		<div class="form-group">
-                    <label class="col-lg-4 control-label">Latitude</label>
-                    <div class="col-lg-6">
-                        <input type="text" class="form-control" name="project_area_latitude" placeholder="latitude" value="<?php echo set_value('project_area_latitude');?>" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-lg-4 control-label">Longitude</label>
-                    <div class="col-lg-6">
-                        <input type="text" class="form-control" name="project_area_longitude" placeholder="Longitude" value="<?php echo set_value('project_area_longitude');?>" required>
-                    </div>
-                </div>
-                
+                 
                 <!-- Activate checkbox -->
                
             </div>
         </div>
-        
-        <div class="form-actions center-align">
-            <button class="submit btn btn-primary" type="submit">
-                Add project area
-            </button>
+        <br/>
+        <div class="col-md-12">
+            <div id="map_1" style=" height:350px"></div>
+            <input type="hidden" id="location" name="location" class="span12" >
+        </div>
+        <br/>
+        <div class="col-md-12" style="margin-top:20px;">
+            <div class="form-actions center-align">
+                <button class="submit btn btn-primary" type="submit">
+                    Add project area
+                </button>
+            </div>
         </div>
         <br />
         <?php echo form_close();?>

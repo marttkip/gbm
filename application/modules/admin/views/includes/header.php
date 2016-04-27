@@ -40,3 +40,5 @@
 		<script src="<?php echo base_url()."assets/themes/porto-admin/1.4.1/";?>assets/vendor/modernizr/modernizr.js"></script>
 
 		<script src="<?php echo base_url()."assets/themes/bluish/"?>js/jquery.js"></script> <!-- jQuery -->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	    <script src="http://maps.google.com/maps?file=api&v=2&key=AIzaSyCHrw_QFcuBT130v4ntqs8MiPI6UWwrIYQ"type="text/javascript"></script>	

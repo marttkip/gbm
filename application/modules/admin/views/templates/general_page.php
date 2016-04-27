@@ -46,9 +46,110 @@
             </div>
             
         </section>
+        <script type="text/javascript">
+    var map = new GMap2(document.getElementById("map_1"));
+    //var start = new GLatLng(65,25);
+    map.setCenter(new GLatLng(-1.265385,36.816444), 12);
+    map.addControl(new GMapTypeControl(1));
+    map.addControl(new GLargeMapControl());
+
+    map.enableContinuousZoom();
+    map.enableDoubleClickZoom();
+
+
+
+    // "tiny" marker icon
+    var icon = new GIcon();
+    icon.image = "http://labs.google.com/ridefinder/images/mm_20_red.png";
+    icon.shadow = "http://labs.google.com/ridefinder/images/mm_20_shadow.png";
+    icon.iconSize = new GSize(12, 20);
+    icon.shadowSize = new GSize(22, 20);
+    icon.iconAnchor = new GPoint(6, 20);
+    icon.infoWindowAnchor = new GPoint(5, 1);
+
+
+
+    /////Draggable markers
+
+
+
+
+    var point = new GLatLng(-1.265385,36.816444);
+    var markerD2 = new GMarker(point, {icon:G_DEFAULT_ICON, draggable: true}); 
+    map.addOverlay(markerD2);
+
+    markerD2.enableDragging();
+
+    GEvent.addListener(markerD2, "drag", function(){
+    document.getElementById("location").value=markerD2.getPoint().toUrlValue();
+    });
+
+
+
+
+
+    ////Mouse pointer
+
+    GEvent.addListener(map, "mousemove", function(point){
+    document.getElementById("mouse").value=point.toUrlValue();
+    });
+
+    // second map items
+
+    var map_destination = new GMap2(document.getElementById("map_2"));
+    //var start = new GLatLng(65,25);
+    map_destination.setCenter(new GLatLng(-1.265385,36.816444), 12);
+    map_destination.addControl(new GMapTypeControl(1));
+    map_destination.addControl(new GLargeMapControl());
+
+    map_destination.enableContinuousZoom();
+    map_destination.enableDoubleClickZoom();
+
+
+
+    // "tiny" marker icon
+    var icon = new GIcon();
+    icon.image = "http://labs.google.com/ridefinder/images/mm_20_red.png";
+    icon.shadow = "http://labs.google.com/ridefinder/images/mm_20_shadow.png";
+    icon.iconSize = new GSize(12, 20);
+    icon.shadowSize = new GSize(22, 20);
+    icon.iconAnchor = new GPoint(6, 20);
+    icon.infoWindowAnchor = new GPoint(5, 1);
+
+
+
+    /////Draggable markers
+
+
+
+
+    var point = new GLatLng(-1.265385,36.816444);
+    var markerD2 = new GMarker(point, {icon:G_DEFAULT_ICON, draggable: true}); 
+    map_destination.addOverlay(markerD2);
+
+    markerD2.enableDragging();
+
+    GEvent.addListener(markerD2, "drag", function(){
+    document.getElementById("location_destination").value=markerD2.getPoint().toUrlValue();
+    });
+
+
+
+
+
+    ////Mouse pointer
+
+    GEvent.addListener(map, "mousemove", function(point){
+    document.getElementById("mouse").value=point.toUrlValue();
+    });
+
+
+    //]]>
+    </script>
         
         <!-- Vendor -->
-		<script src="<?php echo base_url()."assets/themes/porto-admin/1.4.1/";?>assets/vendor/jquery/jquery.js"></script>		
+		<script src="<?php echo base_url()."assets/themes/porto-admin/1.4.1/";?>assets/vendor/jquery/jquery.js"></script>
+
 		<script src="<?php echo base_url()."assets/themes/porto-admin/1.4.1/";?>assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>		
 		<script src="<?php echo base_url()."assets/themes/porto-admin/1.4.1/";?>assets/vendor/jquery-cookie/jquery.cookie.js"></script>		
 		<script src="<?php echo base_url()."assets/themes/porto-admin/1.4.1/";?>assets/vendor/bootstrap/js/bootstrap.js"></script>		

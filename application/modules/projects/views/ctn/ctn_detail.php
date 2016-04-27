@@ -1,3 +1,4 @@
+<?php echo $this->load->view('projects/project_areas/project_area_header','',true);?>
 <?php
 $result = '';
 if($ctn_query->num_rows() == 1)
@@ -80,6 +81,7 @@ if($ctn_query->num_rows() == 1)
 						</table>
 			';
 	?>
+
 	<div class="row " style="margin-top: 10px;">
 			<div class="table-responsive">
 				<?php echo $result;?>	

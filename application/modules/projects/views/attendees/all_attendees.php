@@ -1,4 +1,4 @@
-
+<?php echo $this->load->view('project_areas/project_area_header','',true);?>
 <?php 
 //echo $this->load->view('search/community_group_members_search','', true);
 

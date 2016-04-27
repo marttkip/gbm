@@ -21,7 +21,7 @@ class Project_areas_model extends CI_Model
 	* 	@param string $where
 	*
 	*/
-	public function get_all_project_areas($table, $where, $per_page, $page, $order = 'project_area_name', $order_method = 'ASC')
+	public function get_all_project_areas($table, $where, $per_page, $page, $order = 'project_area_id', $order_method = 'DESC')
 	{
 		//retrieve all users
 		$this->db->from($table);
@@ -41,11 +41,16 @@ class Project_areas_model extends CI_Model
 	*/
 	public function add_project_area()
 	{
+		$start_location = explode(',', $this->input->post('location')); 
+
+		$project_area_latitude = $start_location[0];
+		$project_area_longitude = $start_location[1];
+
 		$data = array(
 				'project_area_name'=>$this->input->post('project_area_name'),
 				'project_area_status'=>$this->input->post('project_area_status'),
-				'project_area_longitude'=>$this->input->post('project_area_longitude'),
-				'project_area_latitude'=>$this->input->post('project_area_latitude'),
+				'project_area_longitude'=>$project_area_longitude,
+				'project_area_latitude'=>$project_area_latitude,
 				'created'=>date('Y-m-d H:i:s'),
 				'created_by'=>$this->session->userdata('personnel_id'),
 				'branch_code'=>$this->session->userdata('branch_code'),
@@ -278,6 +283,27 @@ class Project_areas_model extends CI_Model
 		else{
 			return FALSE;
 		}
+	}
+	public function get_project_ctn($project_area_id)
+	{
+		$ctn_where = 'is_ctn = 1 AND project_area_id ='.$project_area_id;
+		$ctn_table = 'community_group';
+
+		$this->db->where($ctn_where);
+		$ctn_query = $this->db->get($ctn_table);
+
+		return $ctn_query;
+	}
+
+	public function get_project_areas_nurseries($project_area_id)
+	{
+		$community_where = 'is_ctn = 0 AND project_area_id  = '.$project_area_id;
+
+		$community_table = 'community_group';
+		$this->db->where($community_where);
+		$ctn_query = $this->db->get($community_table);
+
+		return $ctn_query;	
 	}
 
 }

@@ -18,7 +18,7 @@ class Project_areas extends admin
 	*	Default action is to show all the project_areas
 	*
 	*/
-	public function index($order = 'project_area_name', $order_method = 'ASC') 
+	public function index($order = 'project_area_id', $order_method = 'DESC') 
 	{
 		$where = 'project_areas.parent_project_area_id = 0 AND project_areas.branch_code = \''.$this->session->userdata('branch_code').'\'';
 		$table = 'project_areas';
@@ -70,7 +70,8 @@ class Project_areas extends admin
 			$order_method = 'DESC';
 		}
 
-
+		$contacts = $this->site_model->get_contacts();
+		$v_data['contacts'] = $contacts;
 		
 		
 		$data['title'] = 'Project Areas';
@@ -95,9 +96,7 @@ class Project_areas extends admin
 		//form validation rules
 		$this->form_validation->set_rules('project_area_name', 'Area Name', 'required|xss_clean');
 		$this->form_validation->set_rules('project_area_status', 'Area Status', 'required|xss_clean');
-
-		$this->form_validation->set_rules('project_area_longitude', 'Longitude', 'required|xss_clean');
-		$this->form_validation->set_rules('project_area_latitude', 'Latitude', 'required|xss_clean');
+		$this->form_validation->set_rules('location', 'Longitude', 'required|xss_clean');
 		
 		//if form has been submitted
 		if ($this->form_validation->run())

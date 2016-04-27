@@ -124,8 +124,8 @@
 	$result .= '</div>';
 	
 ?>
-
-<section class="panel panel-featured panel-featured-info">
+<?php echo $this->load->view('project_areas/project_area_header','',true);?>
+<section class="panel panel-featured panel-featured-success">
     <header class="panel-heading">
          <h2 class="panel-title pull-left"><?php echo $title;?></h2>
          <div class="widget-icons pull-right">
