@@ -73,6 +73,16 @@ class Community_groups_model extends CI_Model
 		}
 	}
 	
+	//branch details
+	public function get_branch_details()
+	{
+		$this->db->from('branch');
+		$this->db->select('branch.*');
+		$query = $this->db->get();
+		
+		return $query;
+	}
+	
 	/*
 	*	Update an existing company
 	*	@param string $image_name

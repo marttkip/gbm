@@ -20,6 +20,28 @@ class Meeting_model extends CI_Model
 		return $query;
 	}
 	
+	//meeting attendees
+	
+	public function get_meeting_attendee($meeting_id)
+	{
+		$this->db->from('attendees,meeting_attendees');
+		$this->db->select('attendees.*');
+		$this->db->where('meeting_attendees.attendee_id = attendees.attendee_id AND meeting_attendees.meeting_id ='.$meeting_id);
+		$query = $this->db->get();
+		
+		return $query;
+	}
+	
+	//branch details
+	public function get_branch_details()
+	{
+		$this->db->from('branch');
+		$this->db->select('branch.*');
+		$query = $this->db->get();
+		
+		return $query;
+	}
+	
 	/*
 	*	Retrieve all meeting of a user
 	*

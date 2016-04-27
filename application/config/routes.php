@@ -218,6 +218,7 @@ $route['tree-planting/edit-community-group/(:num)/(:num)'] = 'gbm_administration
 $route['tree-planting/delete-community-group/(:num)/(:num)'] = 'gbm_administration/community_groups/delete_community_group/$1/$2';
 $route['tree-planting/activate-community-group/(:num)/(:num)'] = 'gbm_administration/community_groups/activate_community_group/$1/$2';
 $route['tree-planting/deactivate-community-group/(:num)/(:num)'] = 'gbm_administration/community_groups/deactivate_community_group/$1/$2';
+$route['tree-planting/print-community-group/(:num)'] = 'gbm_administration/community_groups/print_community_group/$1';
 
 
 $route['tree-planting/group-members/(:num)/(:num)'] = 'gbm_administration/group_members/index/$1/$2';
@@ -276,6 +277,7 @@ $route['tree-planting/deactivate-training/(:num)/(:num)'] = 'projects/meeting/de
 
 $route['training-attendees/(:num)/(:num)'] = 'projects/meeting/training_attendees/$1/$2';
 $route['add-neeting-attendee/(:num)/(:num)'] = 'projects/meeting/add_meeting_attendee/$1/$2';
+$route['meeting/print-attendees/(:num)/(:num)'] = 'projects/meeting/print_training_attendees/$1/$2';
 
 
 
@@ -288,6 +290,7 @@ $route['tree-planting/edit-seedling-production/(:num)/(:num)'] = 'projects/seedl
 $route['tree-planting/delete-seedling-production/(:num)/(:num)'] = 'projects/seedling_production/delete_seedling_production/$1/$2';
 $route['tree-planting/activate-seedling-production/(:num)/(:num)'] = 'projects/seedling_production/activate_seedling_production/$1/$2';
 $route['tree-planting/deactivate-seedling-production/(:num)/(:num)'] = 'projects/seedling_production/deactivate_seedling_production/$1/$2';
+$route['gbm-administration/print-nursery/(:num)/(:num)'] = 'projects/seedling_production/print_seedling_production/$1/$2';
 
 
 $route['tree-planting/seedling-tally/(:num)/(:num)'] = 'projects/seedling_production/tally_sheet/$1/$2';

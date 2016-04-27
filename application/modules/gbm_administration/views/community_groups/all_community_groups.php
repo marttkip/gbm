@@ -102,6 +102,7 @@
 						<td>'.$status.'</td>
 						<td><a href="'.site_url().'tree-planting/group-members/'.$community_group_id.'/'.$project_area_id.'" class="btn btn-sm btn-warning" title="Edit '.$community_group_name.'"><i class="fa fa-eye"></i></a></td>
 						<td><a href="'.site_url().'tree-planting/edit-community-group/'.$community_group_id.'/'.$project_area_id.'" class="btn btn-sm btn-success" title="Edit '.$community_group_name.'"><i class="fa fa-pencil"></i></a></td>
+						<td><a href="'.site_url().'tree-planting/print-community-group/'.$community_group_id.'" class="btn btn-sm btn-success" title="Print '.$community_group_name.'"><i class="fa fa-print"></i></a></td>
 
 						<td>'.$button.'</td>
 						<td><a href="'.site_url().'tree-planting/delete-community-group/'.$community_group_id.'/'.$project_area_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to delete '.$community_group_name.'?\');" title="Delete '.$community_group_name.'"><i class="fa fa-trash"></i></a></td>

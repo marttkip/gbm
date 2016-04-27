@@ -18,6 +18,49 @@ class Seedling_production_model extends CI_Model
 		$this->db->where($where);
 		return $this->db->count_all_results();
 	}
+	
+	//branch details
+	
+	public function get_branch_details()
+	{
+		$this->db->from('branch');
+		$this->db->select('branch.*');
+		$query = $this->db->get();
+		
+		return $query;
+	}
+	
+	//tally details
+	public function get_monthly_tally($seedling_product_id)
+	{
+		$this->db->from('seedling_production');
+		$this->db->where('seedling_production_id = '.$seedling_product_id);
+		$this->db->select('seedling_production.*');
+		$query = $this->db->get();
+		
+		return $query;
+	}
+	
+	//month
+	public function get_selected_month($seedling_product_id)
+	{
+		$this->db->from('nursery_tally');
+		$this->db->where('seedling_production_id = '.$seedling_product_id);
+		$this->db->select('nursery_tally.*');
+		$query = $this->db->get();
+		
+		return $query;
+	}
+	//nursery details
+	public function get_nursery_details($nursery_id)
+	{
+		$this->db->from('nurseries');
+		$this->db->where('nursery_id = '.$nursery_id);
+		$this->db->select('nurseries.*');
+		$query = $this->db->get();
+		
+		return $query;
+	}
 	/*
 	*	Retrieve all community_group
 	*

@@ -118,7 +118,50 @@ class Community_groups extends admin
 		$data['content'] = $this->load->view('community_groups/add_community_group', $v_data, true);
 		$this->load->view('admin/templates/general_page', $data);
 	}
-    
+	
+    //print community group details
+	public function print_community_group($community_group_id)
+	{
+		$where = 'community_group_id ='.$community_group_id;
+		$this->db->select( '*');
+		$this->db->where($where);
+		$group_details = $this->db->get('community_group');
+		
+		if($group_details->num_rows() > 0)
+		{
+			$row = $group_details->result();
+			$community_group_name = $row[0]->community_group_name;
+			$address = $row[0]->address;
+			$location = $row[0]->location;
+			$sub_location = $row[0]->sub_location;
+			$county = $row[0]->county;
+			$chief = $row[0]->chief;
+			$sub_chief = $row[0]->sub_chief;
+			$mp = $row[0]->mp;
+			$now_activities = $row[0]->now_activities;
+			$account_number = $row[0]->account_number;
+			$later_activities = $row[0]->later_activities;
+			$community_group_contact_person_phone1 = $row[0]->community_group_contact_person_phone1;
+			$community_group_contact_person_name = $row[0]->community_group_contact_person_name;
+		}
+		$data['community_group_name'] = $community_group_name;
+		$data['address'] = $address;
+		$data['location'] = $location;
+		$data['sub_location'] = $sub_location;
+		$data['county'] = $county;
+		$data['chief'] = $chief;
+		$data['sub_chief'] = $sub_chief;
+		$data['mp'] = $mp;
+		$data['now_activities'] = $now_activities;
+		$data['account_number'] = $account_number;
+		$data['later_activities'] = $later_activities;
+		$data['community_group_contact_person_phone1'] = $community_group_contact_person_phone1;
+		$data['community_group_contact_person_name']=$community_group_contact_person_name;
+		$data['branch_data'] = $this->community_groups_model->get_branch_details();
+		$this->load->view('community_groups/print_group', $data);
+		
+	}
+	
 	/*
 	*
 	*	Edit an existing company

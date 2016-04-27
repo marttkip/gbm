@@ -104,7 +104,6 @@
 						<td>'.$button.'</td>
 
 						<td><a href="'.site_url().'gbm-administration/delete-county/'.$seedling_production_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to delete '.$community_group_name.'?\');" title="Delete '.$community_group_name.'"><i class="fa fa-trash"></i></a></td>
-						
 					</tr> 
 				';
 				$v_data['seedling_production_id'] = $seedling_production_id;
