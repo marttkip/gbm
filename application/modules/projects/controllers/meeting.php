@@ -257,6 +257,37 @@ class Meeting extends admin
 		$this->session->set_userdata('success_message', 'Successfully activate meeting');
 		redirect('tree-planting/trainings/'.$project_area_id);
 	}
+
+	
+	public function print_training_attendees($project_area_id,$meeting_id)
+	{
+		
+		$where = 'meeting_id ='.$meeting_id;
+		$this->db->select( '*');
+		$this->db->where($where);
+		
+		$meeting_details = $this->db->get('meeting');
+		
+		if($meeting_details->num_rows() > 0)
+		{
+			$row = $meeting_details->result();
+			
+			$grant_name = $row[0]->grant_name;
+			$activity_title = $row[0]->activity_title;
+			$grant_county = $row[0]->grant_county;
+			$meeting_date = $row[0]->meeting_date;
+			$meeting_id = $row[0]->meeting_id;
+		}
+		$data['grant_name'] = $grant_name;
+		$data['activity_title'] = $activity_title;
+		$data['grant_county'] = $grant_county;
+		$data['meeting_date'] = $meeting_date;
+		$data['meeting_id'] = $meeting_id;
+		$data['branch_data'] = $this->meeting_model->get_branch_details();
+		$data['meeting_attendee'] = $this->meeting_model->get_meeting_attendee($meeting_id);
+		$this->load->view('meeting/meeting_attendees', $data);
+	}
+	
 	public function training_attendees($project_area_id,$meeting_id)
 	{
 		$where = 'attendees.attendee_delete = 0 AND meeting_attendees.meeting_id ='.$meeting_id.' AND attendees.attendee_id = meeting_attendees.attendee_id';

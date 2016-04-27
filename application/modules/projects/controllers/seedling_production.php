@@ -94,6 +94,31 @@ class Seedling_production extends admin {
 		
 		$this->load->view('admin/templates/general_page', $data);
 	}
+	
+	public function print_seedling_production($seedling_production_id,$nursery_tally_id)
+	{
+		$where = 'seedling_production.seedling_production_id = nursery_tally.seedling_production_id AND seedling_production.seedling_production_id ='.$seedling_production_id.' AND nursery_tally.nursery_tally_id ='.$nursery_tally_id;
+		$this->db->select( 'seedling_production.*, nursery_tally.month');
+		$this->db->where($where);
+		
+		$nursery_tally_details = $this->db->get('seedling_production, nursery_tally');
+		
+		if($nursery_tally_details->num_rows() > 0)
+		{
+			$row = $nursery_tally_details->result();
+			$nursery_id = $row[0]->nursery_id;
+			$seedling_product_id = $row[0]->seedling_production_id;
+			$month =$row[0]->month;
+		}
+		$data['$nursery_id'] = $nursery_id;
+		$data['$seedling_product_id'] = $seedling_product_id;
+		$data['title'] = 'Nursery Report';
+		$data['month'] = $month;
+		$data['seedling_production_info'] = $this->seedling_production_model->get_monthly_tally($seedling_product_id);
+		$data['nursery_info'] = $this->seedling_production_model->get_nursery_details($nursery_id);
+		$data['branch_data'] = $this->seedling_production_model->get_branch_details();
+		$this->load->view('seedling_production/nursery_report', $data);
+	}
 
 	public function add_seedling_production($project_area_id)
 	{
