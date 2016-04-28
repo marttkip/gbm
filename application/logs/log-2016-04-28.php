@@ -1960,3 +1960,1164 @@ DEBUG - 2016-04-28 09:07:00 --> File loaded: application/modules/admin/views/inc
 DEBUG - 2016-04-28 09:07:00 --> File loaded: application/modules/admin/views/templates/general_page.php
 DEBUG - 2016-04-28 09:07:00 --> Final output sent to browser
 DEBUG - 2016-04-28 09:07:00 --> Total execution time: 8.3681
+DEBUG - 2016-04-28 09:12:26 --> Config Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:12:27 --> URI Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Router Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Output Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Security Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Input Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:12:27 --> Language Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Language Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Config Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:12:27 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:12:28 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:12:28 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> Session Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:12:28 --> Session routines successfully run
+DEBUG - 2016-04-28 09:12:28 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> Email Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:28 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:12:28 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:29 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:12:29 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:30 --> File loaded: application/modules/projects/views/dashboard_header.php
+DEBUG - 2016-04-28 09:12:30 --> File loaded: application/modules/projects/views/dashboard_body.php
+DEBUG - 2016-04-28 09:12:30 --> File loaded: application/modules/projects/views/project_areas/all_project_areas.php
+DEBUG - 2016-04-28 09:12:30 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:12:30 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:12:30 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:12:30 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:12:30 --> Final output sent to browser
+DEBUG - 2016-04-28 09:12:30 --> Total execution time: 3.8894
+DEBUG - 2016-04-28 09:12:44 --> Config Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:12:44 --> URI Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Router Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Output Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Security Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Input Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:12:44 --> Language Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Language Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Config Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:12:44 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:12:44 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Session Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:12:44 --> Session routines successfully run
+DEBUG - 2016-04-28 09:12:44 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Email Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:12:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/projects/views/project_areas/project_area_detail.php
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:12:44 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:12:44 --> Final output sent to browser
+DEBUG - 2016-04-28 09:12:44 --> Total execution time: 0.7756
+DEBUG - 2016-04-28 09:15:02 --> Config Class Initialized
+DEBUG - 2016-04-28 09:15:02 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:15:02 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:15:02 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:15:02 --> URI Class Initialized
+DEBUG - 2016-04-28 09:15:02 --> Router Class Initialized
+DEBUG - 2016-04-28 09:15:02 --> Output Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Security Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Input Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:15:03 --> Language Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Language Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Config Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:15:03 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:15:03 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Session Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:15:03 --> Session routines successfully run
+DEBUG - 2016-04-28 09:15:03 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Email Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:15:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:15:03 --> File loaded: application/modules/projects/views/project_areas/project_area_detail.php
+DEBUG - 2016-04-28 09:15:04 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:15:04 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:15:04 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:15:04 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:15:04 --> Final output sent to browser
+DEBUG - 2016-04-28 09:15:04 --> Total execution time: 1.4145
+DEBUG - 2016-04-28 09:15:10 --> Config Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:15:10 --> URI Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Router Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Output Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Security Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Input Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:15:10 --> Language Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Language Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Config Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:15:10 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:15:10 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Session Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:15:10 --> Session routines successfully run
+DEBUG - 2016-04-28 09:15:10 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Email Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:10 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:15:10 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:11 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:15:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:11 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:15:11 --> File loaded: application/modules/projects/views/seedling_production/all_seedling_production.php
+DEBUG - 2016-04-28 09:15:11 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:15:11 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:15:11 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:15:11 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:15:11 --> Final output sent to browser
+DEBUG - 2016-04-28 09:15:11 --> Total execution time: 0.7668
+DEBUG - 2016-04-28 09:15:18 --> Config Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:15:18 --> URI Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Router Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Output Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Security Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Input Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:15:18 --> Language Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Language Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Config Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:15:18 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:15:18 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Session Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:15:18 --> Session routines successfully run
+DEBUG - 2016-04-28 09:15:18 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Email Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:15:18 --> Model Class Initialized
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/projects/views/project_areas/project_area_detail.php
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:15:18 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:15:18 --> Final output sent to browser
+DEBUG - 2016-04-28 09:15:18 --> Total execution time: 0.2475
+DEBUG - 2016-04-28 09:16:57 --> Config Class Initialized
+DEBUG - 2016-04-28 09:16:57 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:16:58 --> URI Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Router Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Output Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Security Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Input Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:16:58 --> Language Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Language Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Config Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:16:58 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:16:58 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Session Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:16:58 --> Session routines successfully run
+DEBUG - 2016-04-28 09:16:58 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Email Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:16:58 --> Model Class Initialized
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/projects/views/dashboard_header.php
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/projects/views/dashboard_body.php
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/projects/views/project_areas/all_project_areas.php
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:16:58 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:16:58 --> Final output sent to browser
+DEBUG - 2016-04-28 09:16:58 --> Total execution time: 1.3715
+DEBUG - 2016-04-28 09:17:03 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:03 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:03 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:03 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:03 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:03 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:03 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:17:03 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/projects/views/project_areas/project_area_detail.php
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:17:03 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:17:03 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:03 --> Total execution time: 0.2462
+DEBUG - 2016-04-28 09:17:23 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:23 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:23 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:23 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:23 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:23 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:23 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:17:23 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/projects/views/seedling_production/all_seedling_production.php
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:17:23 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:17:23 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:23 --> Total execution time: 0.4891
+DEBUG - 2016-04-28 09:17:27 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:27 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:27 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:27 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:27 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:27 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:27 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:17:27 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:28 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:17:28 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:17:28 --> File loaded: application/modules/projects/views/seedling_production/tally_sheet.php
+DEBUG - 2016-04-28 09:17:28 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:17:28 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:17:28 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:17:28 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:17:28 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:28 --> Total execution time: 0.9140
+DEBUG - 2016-04-28 09:17:33 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:34 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:34 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:34 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:34 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:34 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:34 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:17:34 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:34 --> File loaded: application/modules/projects/views/seedling_production/nursery_report.php
+DEBUG - 2016-04-28 09:17:34 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:34 --> Total execution time: 0.6502
+DEBUG - 2016-04-28 09:17:39 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:39 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:39 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:39 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:39 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:39 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:17:39 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/projects/views/seedling_production/all_seedling_production.php
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:17:39 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:17:39 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:39 --> Total execution time: 0.2569
+DEBUG - 2016-04-28 09:17:42 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:42 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:42 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:42 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:42 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:42 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:42 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:17:42 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/projects/views/project_areas/project_area_detail.php
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:17:42 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:17:42 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:42 --> Total execution time: 0.2702
+DEBUG - 2016-04-28 09:17:44 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:44 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:44 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:44 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:44 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:44 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:44 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> Community_groups MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/gbm_administration/models/community_groups_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:17:44 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/gbm_administration/views/community_groups/all_community_groups.php
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:17:44 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:17:44 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:44 --> Total execution time: 0.4609
+DEBUG - 2016-04-28 09:17:49 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:17:49 --> URI Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Router Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Output Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Security Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Input Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:17:49 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Language Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Config Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:17:49 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:17:49 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Session Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:17:49 --> Session routines successfully run
+DEBUG - 2016-04-28 09:17:49 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Email Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> Community_groups MX_Controller Initialized
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/gbm_administration/models/community_groups_model.php
+DEBUG - 2016-04-28 09:17:49 --> Model Class Initialized
+DEBUG - 2016-04-28 09:17:49 --> File loaded: application/modules/gbm_administration/views/community_groups/print_group.php
+DEBUG - 2016-04-28 09:17:49 --> Final output sent to browser
+DEBUG - 2016-04-28 09:17:49 --> Total execution time: 0.3405
+DEBUG - 2016-04-28 09:18:17 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:18:17 --> URI Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Router Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Output Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Security Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Input Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:18:17 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:18:17 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:18:17 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Session Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:18:17 --> Session routines successfully run
+DEBUG - 2016-04-28 09:18:17 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Email Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> Project_areas MX_Controller Initialized
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:18:17 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/projects/views/project_areas/project_area_detail.php
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:18:17 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:18:17 --> Final output sent to browser
+DEBUG - 2016-04-28 09:18:17 --> Total execution time: 0.3215
+DEBUG - 2016-04-28 09:18:19 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:18:19 --> URI Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Router Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Output Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Security Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Input Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:18:19 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:18:19 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:18:19 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Session Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:18:19 --> Session routines successfully run
+DEBUG - 2016-04-28 09:18:19 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Email Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/projects/models/project_areas_model.php
+DEBUG - 2016-04-28 09:18:19 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:19 --> File loaded: application/modules/projects/views/project_areas/project_area_header.php
+DEBUG - 2016-04-28 09:18:20 --> File loaded: application/modules/projects/views/seedling_production/all_seedling_production.php
+DEBUG - 2016-04-28 09:18:20 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:18:20 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:18:20 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:18:20 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:18:20 --> Final output sent to browser
+DEBUG - 2016-04-28 09:18:20 --> Total execution time: 0.2614
+DEBUG - 2016-04-28 09:18:25 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:18:25 --> URI Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Router Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Output Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Security Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Input Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:18:25 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:18:25 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:18:25 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Session Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:18:25 --> Session routines successfully run
+DEBUG - 2016-04-28 09:18:25 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Email Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:18:25 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:18:25 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:25 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:18:25 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:18:26 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:18:26 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:18:26 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:18:26 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:18:26 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:18:26 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/projects/views/seedling_production/production_detail.php
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/projects/views/seedling_production/tally_sheet.php
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/admin/views/includes/header.php
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/admin/views/includes/top_navigation.php
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/admin/views/includes/sidebar.php
+DEBUG - 2016-04-28 09:18:26 --> File loaded: application/modules/admin/views/templates/general_page.php
+DEBUG - 2016-04-28 09:18:26 --> Final output sent to browser
+DEBUG - 2016-04-28 09:18:26 --> Total execution time: 0.3545
+DEBUG - 2016-04-28 09:18:32 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:18:32 --> URI Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Router Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Output Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Security Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Input Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:18:32 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:18:32 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:18:32 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Session Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:18:32 --> Session routines successfully run
+DEBUG - 2016-04-28 09:18:32 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Email Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:32 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:18:32 --> Model Class Initialized
+ERROR - 2016-04-28 09:18:32 --> Severity: Notice  --> Undefined variable: nursery_id C:\xampp\htdocs\gbm\application\modules\projects\controllers\seedling_production.php 113
+ERROR - 2016-04-28 09:18:32 --> Severity: Notice  --> Undefined variable: seedling_product_id C:\xampp\htdocs\gbm\application\modules\projects\controllers\seedling_production.php 114
+ERROR - 2016-04-28 09:18:32 --> Severity: Notice  --> Undefined variable: month C:\xampp\htdocs\gbm\application\modules\projects\controllers\seedling_production.php 116
+ERROR - 2016-04-28 09:18:32 --> Severity: Notice  --> Undefined variable: seedling_product_id C:\xampp\htdocs\gbm\application\modules\projects\controllers\seedling_production.php 117
+DEBUG - 2016-04-28 09:18:32 --> DB Transaction Failure
+ERROR - 2016-04-28 09:18:32 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+DEBUG - 2016-04-28 09:18:32 --> Language file loaded: language/english/db_lang.php
+ERROR - 2016-04-28 09:18:32 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\gbm\system\core\Exceptions.php:186) C:\xampp\htdocs\gbm\system\core\Common.php 441
+DEBUG - 2016-04-28 09:18:38 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:18:38 --> URI Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Router Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Output Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Security Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Input Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:18:38 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Language Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Config Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:18:38 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:18:38 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Session Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:18:38 --> Session routines successfully run
+DEBUG - 2016-04-28 09:18:38 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Email Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:18:38 --> Model Class Initialized
+DEBUG - 2016-04-28 09:18:38 --> File loaded: application/modules/projects/views/seedling_production/nursery_report.php
+DEBUG - 2016-04-28 09:18:38 --> Final output sent to browser
+DEBUG - 2016-04-28 09:18:38 --> Total execution time: 0.2382
+DEBUG - 2016-04-28 09:21:21 --> Config Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:21:21 --> URI Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Router Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Output Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Security Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Input Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:21:21 --> Language Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Language Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Config Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:21:21 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:21:21 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Session Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:21:21 --> Session routines successfully run
+DEBUG - 2016-04-28 09:21:21 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Email Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:21:21 --> Model Class Initialized
+DEBUG - 2016-04-28 09:21:21 --> File loaded: application/modules/projects/views/seedling_production/nursery_report.php
+DEBUG - 2016-04-28 09:21:21 --> Final output sent to browser
+DEBUG - 2016-04-28 09:21:21 --> Total execution time: 0.1963
+DEBUG - 2016-04-28 09:43:03 --> Config Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:43:04 --> URI Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Router Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Output Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Security Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Input Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:43:04 --> Language Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Language Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Config Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:43:04 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:43:04 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Session Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:43:04 --> Session routines successfully run
+DEBUG - 2016-04-28 09:43:04 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:43:04 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> Email Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:05 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:43:05 --> Model Class Initialized
+ERROR - 2016-04-28 09:43:05 --> Severity: Notice  --> Undefined property: stdClass::$year C:\xampp\htdocs\gbm\application\modules\projects\controllers\seedling_production.php 112
+DEBUG - 2016-04-28 09:43:05 --> DB Transaction Failure
+ERROR - 2016-04-28 09:43:05 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND seedling_production_id = 1' at line 3
+DEBUG - 2016-04-28 09:43:05 --> Language file loaded: language/english/db_lang.php
+ERROR - 2016-04-28 09:43:05 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\gbm\system\core\Exceptions.php:186) C:\xampp\htdocs\gbm\system\core\Common.php 441
+DEBUG - 2016-04-28 09:43:43 --> Config Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:43:43 --> URI Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Router Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Output Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Security Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Input Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:43:43 --> Language Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Language Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Config Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:43:43 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:43:43 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Session Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:43:43 --> Session routines successfully run
+DEBUG - 2016-04-28 09:43:43 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Email Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:43:43 --> Model Class Initialized
+ERROR - 2016-04-28 09:43:43 --> Severity: Notice  --> Undefined variable: 0 C:\xampp\htdocs\gbm\application\modules\projects\views\seedling_production\nursery_report.php 65
+DEBUG - 2016-04-28 09:43:43 --> File loaded: application/modules/projects/views/seedling_production/nursery_report.php
+DEBUG - 2016-04-28 09:43:43 --> Final output sent to browser
+DEBUG - 2016-04-28 09:43:43 --> Total execution time: 0.2066
+DEBUG - 2016-04-28 09:44:11 --> Config Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Hooks Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 09:44:11 --> URI Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Router Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Output Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Security Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Input Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 09:44:11 --> Language Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Language Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Config Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Loader Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 09:44:11 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 09:44:11 --> Database Driver Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Session Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 09:44:11 --> Session routines successfully run
+DEBUG - 2016-04-28 09:44:11 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Pagination Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Email Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Controller Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> Seedling_production MX_Controller Initialized
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 09:44:11 --> Model Class Initialized
+DEBUG - 2016-04-28 09:44:11 --> File loaded: application/modules/projects/views/seedling_production/nursery_report.php
+DEBUG - 2016-04-28 09:44:11 --> Final output sent to browser
+DEBUG - 2016-04-28 09:44:11 --> Total execution time: 0.1813
