@@ -22,6 +22,63 @@ if($nursery_info->num_rows()>0)
 		$nursery_name = $nurserys->nursery_name;
 	}
 }
+
+$seedlings_rs = $this->seedling_production_model->get_months_seedling_tally($month,$year,$seedling_product_id);
+$ready = 0;
+$not_ready = 0;
+$bags = 0;
+
+$indeginous_not_ready = 0;
+$fruits_not_ready = 0;
+$exotic_not_ready = 0;
+$total_not_ready = 0;
+if($seedlings_rs->num_rows() > 0)
+{   
+
+    foreach ($seedlings_rs->result() as $key_value) {
+        # code...
+        $other_id = $key_value->nursery_tally_id;
+        $checked_id = $key_value->seedling_status_id;
+        
+
+        if($checked_id == 1)
+        {
+            $ready = $key_value->quantity;
+        }
+        else if($checked_id == 2)
+        {
+            $not_ready = $key_value->quantity;
+            $seedling_type_id = $key_value->seedling_type_id;
+            // find the numbers for each seedling type
+            if($seedling_type_id == 1)
+            {
+                $indeginous_not_ready = $not_ready;
+            }
+            else if($seedling_type_id == 2)
+            {
+                $exotic_not_ready = $not_ready;
+            }
+            else if($seedling_type_id == 3)
+            {
+                $fruits_not_ready = $not_ready;
+            }
+            $total_not_ready = $indeginous_not_ready+$exotic_not_ready+$fruits_not_ready;
+        }
+
+        else
+        {
+            $bags = $key_value->quantity;
+
+        }
+
+
+
+        
+
+
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -108,7 +165,7 @@ if($nursery_info->num_rows()>0)
     	<div class="row" >
         	<div class="col-md-12">
             	 <strong>
-                    1. Nursery Name:</strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $nursery_name;?></span>
+                    1. Nursery Name:</strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $nursery_name;?></span>
                   
             </div>
         </div>
@@ -116,7 +173,7 @@ if($nursery_info->num_rows()>0)
         <div class="row" >
         	<div class="col-md-12">
             	 <strong>
-                  2. Report For the month of : </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $month;?></span>
+                  2. Report For the month of : </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $month;?></span>
                   
             </div>
          </div>
@@ -196,18 +253,18 @@ if($nursery_info->num_rows()>0)
         </div>
             <div class="row" >
         	<div class="col-md-6">
-                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $indeginous_not_ready;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $fruits_not_ready;?></span>
             </div>
         </div>
         <div class="row" >
         	<div class="col-md-6">
-                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $exotic_not_ready;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $total_not_ready;?></span>
             </div>
         </div>
         </br>
