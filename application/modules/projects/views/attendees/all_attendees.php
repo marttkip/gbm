@@ -78,7 +78,7 @@
 			$result .= "There are no community group members";
 		}
 
-			$link = '<a href="'.site_url().'meeting/print-attendees/'.$project_area_id.'/'.$meeting_id.'" class="btn btn-sm btn-warning pull-right" style="margin-left:5px; margin-top:-5px" >Print Trainees</a>';
+			$link = '<a href="'.site_url().'meeting/print-attendees/'.$project_area_id.'/'.$meeting_id.'" class="btn btn-sm btn-warning pull-right" style="margin-right:5px; margin-top:-5px" target="_blank" >Print Trainees</a>';
 			$link = '<a href="'.site_url().'tree-planting/trainings/'.$project_area_id.'" class="btn btn-sm btn-default pull-right" style="margin-left:5px; margin-top:-5px" >Back to trainings</a>';
 
 ?>
@@ -87,7 +87,7 @@
 		<h2 class="panel-title"><?php echo $title;?> <?php echo $link;?></h2>
 		<a  class="btn btn-sm btn-success pull-right" id="open_new_community_group_member" onclick="get_new_community_group_member();" style="margin-top:-25px">Add meeting attendee</a>
         <?php
-      	$link = '<a href="'.site_url().'meeting/print-attendees/'.$project_area_id.'/'.$meeting_id.'" class="btn btn-sm btn-default pull-right" style="margin-top:-25px" >Print Trainees</a>';
+      	$link = '<a href="'.site_url().'meeting/print-attendees/'.$project_area_id.'/'.$meeting_id.'" class="btn btn-sm btn-default pull-right" style="margin-top:-25px" target="_blank" >Print Trainees</a>';
 		echo $link;
 		?>
 		<a  class="btn btn-sm btn-warning pull-right" id="close_new_community_group_member" style="display:none; margin-top:-25px;" onclick="close_new_community_group_member();">Close new meeting attendee</a>

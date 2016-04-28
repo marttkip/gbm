@@ -9,6 +9,7 @@ class Ctn extends admin
 		parent:: __construct();
 		$this->load->model('ctn_model');
 		$this->load->model('seedling_production_model');
+		$this->load->model('meeting_model');
 		$this->load->model('admin/users_model');
 	}
     
@@ -237,6 +238,32 @@ class Ctn extends admin
 	{
 		$data = array('order_id'=>$order_id);
 		$this->load->view('ctn/order_items',$data);
+	}
+	//print ctn orders
+	public function print_ctn_recievable($order_id)
+	{
+		$this->db->select ('orders.*, community_group.*, order_receivables.*');
+		$this->db->where('orders.order_id ='.$order_id.' AND order_receivables.order_id = orders.order_id AND orders.nursery_id = community_group.community_group_id');
+		$this->db->from('orders, order_receivables, community_group');
+		
+		$ctn_order_details = $this->db->get();
+		
+		$data['ctn_order_details'] = $ctn_order_details;
+		$data['branch_data'] = $this->meeting_model->get_branch_details();
+		if($ctn_order_details->num_rows()>0)
+		{
+			$print_details = $ctn_order_details->result();
+			
+			foreach($print_details as $details)
+			{
+				$nursey_id = $details->community_group_id;
+			}
+		}
+			//var_dump($nursey_id); die();
+		$data['community_group_info'] = $this->seedling_production_model->get_community_info($nursey_id);
+		$data['nursery_info'] = $this->seedling_production_model->get_nursery_details($nursey_id);
+		
+		$this->load->view('ctn/print_ctn',$data);
 	}
 	public function add_order_item($order_id,$project_area_id,$ctn_id)
 	{

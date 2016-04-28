@@ -19,6 +19,17 @@ class Seedling_production_model extends CI_Model
 		return $this->db->count_all_results();
 	}
 	
+	//community group details
+	public function get_community_info($nursery_id)
+	{
+		$this->db->from('community_group');
+		$this->db->where('community_group_id ='.$nursery_id);
+		$this->db->select('community_group.*');
+		$query = $this->db->get();
+		
+		return $query;
+	}
+	
 	//branch details
 	
 	public function get_branch_details()

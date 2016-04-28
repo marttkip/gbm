@@ -22,6 +22,18 @@ if($nursery_info->num_rows()>0)
 		$nursery_name = $nurserys->nursery_name;
 	}
 }
+if($community_group_info->num_rows()>0)
+{
+	$community_group = $community_group_info->result();
+	foreach($community_group as $community_groups)
+	{
+		$community_group_name = $community_groups->community_group_name;
+		$address = $community_groups->address;
+		$location = $community_groups->location;
+		$sub_location = $community_groups->sub_location;
+		$account_number =$community_groups->account_number;
+	}
+}
 
 $seedlings_rs = $this->seedling_production_model->get_months_seedling_tally($month,$year,$seedling_product_id);
 $ready = 0;
@@ -32,6 +44,14 @@ $indeginous_not_ready = 0;
 $fruits_not_ready = 0;
 $exotic_not_ready = 0;
 $total_not_ready = 0;
+$indeginous_ready = 0;
+$fruits_ready = 0;
+$exotic_ready = 0;
+$total_ready = 0;
+$fruits_bags = 0;
+$exotic_bags = 0;
+$indeginous_bags = 0;
+$total_bags = 0;
 if($seedlings_rs->num_rows() > 0)
 {   
 
@@ -44,21 +64,35 @@ if($seedlings_rs->num_rows() > 0)
         if($checked_id == 1)
         {
             $ready = $key_value->quantity;
+			$seedling_type_id = $key_value->seedling_type_id;
+			 if($seedling_type_id == 2)
+            {
+                $indeginous_ready = $ready;
+            }
+            else if($seedling_type_id == 3)
+            {
+                $exotic_ready = $ready;
+            }
+            else if($seedling_type_id == 1)
+            {
+                $fruits_ready = $ready;
+            }
+            $total_ready = $indeginous_ready+$exotic_ready+$fruits_ready;
         }
         else if($checked_id == 2)
         {
             $not_ready = $key_value->quantity;
             $seedling_type_id = $key_value->seedling_type_id;
             // find the numbers for each seedling type
-            if($seedling_type_id == 1)
+            if($seedling_type_id == 2)
             {
                 $indeginous_not_ready = $not_ready;
             }
-            else if($seedling_type_id == 2)
+            else if($seedling_type_id == 3)
             {
                 $exotic_not_ready = $not_ready;
             }
-            else if($seedling_type_id == 3)
+            else if($seedling_type_id == 1)
             {
                 $fruits_not_ready = $not_ready;
             }
@@ -68,6 +102,20 @@ if($seedlings_rs->num_rows() > 0)
         else
         {
             $bags = $key_value->quantity;
+			$seedling_type_id = $key_value->seedling_type_id;
+			if($seedling_type_id == 2)
+            {
+                $indeginous_bags = $bags;
+            }
+            else if($seedling_type_id == 3)
+            {
+                $exotic_bags = $bags;
+            }
+            else if($seedling_type_id == 1)
+            {
+                $fruits_bags = $bags;
+            }
+            $total_bags = $indeginous_bags+$exotic_bags+$fruits_bags;
 
         }
 
@@ -135,13 +183,13 @@ if($seedlings_rs->num_rows() > 0)
         <div class="row" >
         	<div class="col-md-6">
             	 <strong>
-                  OUR ADDRESS IS: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                  OUR ADDRESS IS: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $address;?></span>
                   
             </div>
      
         	<div class="col-md-6">
             <strong>
-                   DATE: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                   DATE: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo date('Y-m-d');?></span>
             </div>
          </div>
          <div class="row" >
@@ -181,11 +229,11 @@ if($seedlings_rs->num_rows() > 0)
       	<div class="row" >
         	<div class="col-md-6">
             <strong>
-                    Sub-location: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                    Sub-location: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $sub_location;?></span>
             </div>
             <div class="col-md-6">
             <strong>
-                    Location: </strong><span style=" text-decoration:underline"><?php echo '';?></span>
+                    Location: </strong><span style=" text-decoration:underline"><?php echo  $location;?></span>
             </div>
         </div>
         </br>
@@ -209,18 +257,18 @@ if($seedlings_rs->num_rows() > 0)
         </div>
         <div class="row" >
         	<div class="col-md-6">
-                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $indeginous_bags;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $fruits_bags;?></span>
             </div>
         </div>
         <div class="row" >
         	<div class="col-md-6">
-                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $exotic_bags;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $total_bags;?></span>
             </div>
         </div>
         </br>
@@ -231,18 +279,18 @@ if($seedlings_rs->num_rows() > 0)
         </div>
             <div class="row" >
         	<div class="col-md-6">
-                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $indeginous_ready;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $fruits_ready;?></span>
             </div>
         </div>
         <div class="row" >
         	<div class="col-md-6">
-                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $exotic_ready;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo '';?></span>
+                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $total_ready;?></span>
             </div>
         </div>
         </br>
@@ -350,7 +398,7 @@ if($seedlings_rs->num_rows() > 0)
         </br> 
  <div class="row" >
         	<div class="col-md-12">
-                   <strong>9. All the money wll be depoited to your account. Please provide the details below. Account Number</strong><span style="text-decoration:underline"><?php echo '';?></span>
+                   <strong>9. All the money wll be depoited to your account. Please provide the details below. Account Number: </strong><span style="text-decoration:underline"><?php echo $account_number;?></span>
             </div>
         </div>
         <div class="row" >
@@ -383,7 +431,7 @@ if($seedlings_rs->num_rows() > 0)
         </br>
         <div class="row" >
         	<div class="col-md-12">
-                   <strong>11. How many seedlings have been issued out in the month of.............?<p>The number of seedlings issued is?......</p>
+                   <strong>11. How many seedlings have been issued out in the month of  <span style="text-decoration:underline"><?php echo $month; ?></span>?<p>The number of seedlings issued is?......</p>
                    Have you sent form IX(9)?
             </div>
         </div>
