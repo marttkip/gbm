@@ -49,6 +49,19 @@ class Ctn_model extends CI_Model
 		}
 
 	}
+	
+	//personnel name retrieval
+	public function get_personnel_name($personnel_id)
+	{
+		$this->db->where('personnel_id = '.$personnel_id);
+		$this->db->select('personnel_fname, personnel_onames');
+		$this->db->from('personnel');
+		
+		$query = $this->db->get();
+		$row = $query->result();
+		return $row[0]->personnel_fname;
+	}
+	
 	public function create_order_number($project_area_id)
 	{
 		//select product code

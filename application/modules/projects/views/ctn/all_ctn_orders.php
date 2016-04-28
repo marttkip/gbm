@@ -126,6 +126,7 @@ $result = '';
 								</div>
 					</td>
 					<td>'.$button.'</td>
+					<td><a href="'.site_url().'tree-planting/print-ctn-recievable/'.$order_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to print '.$order_number.'?\');" title="Print '.$order_number.'" target = "_blank"><i class="fa fa-print"></i></a></td>
 					<td><a href="'.site_url().'tree-planting/delete-area-location/'.$order_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to delete '.$order_number.'?\');" title="Delete '.$order_number.'"><i class="fa fa-trash"></i></a></td>
 				</tr>
 			';

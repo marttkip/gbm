@@ -297,6 +297,7 @@ $route['gbm-administration/print-nursery/(:num)/(:num)'] = 'projects/seedling_pr
 $route['tree-planting/seedling-tally/(:num)/(:num)'] = 'projects/seedling_production/tally_sheet/$1/$2';
 $route['tree-planting/seedling-production/(:num)/(:any)/(:any)/(:num)'] = 'projects/seedling_production/index/$1/$2/$3/$3';
 $route['tree-planting/add-tally-numbers/(:num)/(:num)'] = 'projects/seedling_production/add_seedling_production_tally/$1/$2';
+$route['tree-planting/print-ctn-recievable/(:num)']='projects/ctn/print_ctn_recievable/$1';
 
 
 $route['tree-planting/ctn-detail/(:num)'] = 'projects/ctn/index/$1';

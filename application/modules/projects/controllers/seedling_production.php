@@ -112,14 +112,15 @@ class Seedling_production extends admin {
 			$year =$row[0]->year;
 			$project_area_id =$row[0]->project_area_id;
 		}
-		$data['$nursery_id'] = $nursery_id;
-		$data['$seedling_product_id'] = $seedling_product_id;
+		$data['nursery_id'] = $nursery_id;
+		$data['seedling_product_id'] = $seedling_product_id;
 		$data['title'] = 'Nursery Report';
 		$data['month'] = $month;
 		$data['year'] = $year;
 		$data['project_area_id'] = $project_area_id;
 		$data['seedling_product_id'] = $seedling_product_id;
 		$data['seedling_production_info'] = $this->seedling_production_model->get_monthly_tally($seedling_product_id);
+		$data['community_group_info'] = $this->seedling_production_model->get_community_info($nursery_id);
 		$data['nursery_info'] = $this->seedling_production_model->get_nursery_details($nursery_id);
 		$data['branch_data'] = $this->seedling_production_model->get_branch_details();
 		$this->load->view('seedling_production/nursery_report', $data);

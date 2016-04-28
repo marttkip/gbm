@@ -141,7 +141,7 @@
 						
 						<td><a href="'.site_url().'tree-planting/seedling-tally/'.$nursery_tally_id.'/'.$project_area_id.'" class="btn btn-sm btn-warning" ><i class="fa fa-eye"></i></a></td>
 						<td>'.$button.'</td>
-						<td><a href="'.site_url().'gbm-administration/print-nursery/'.$nursery_tally_id.'/'.$seedling_production_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to print'.$monthName.'?\');" title="Print '.$monthName.'"><i class="fa fa-print"></i></a></td>
+						<td><a href="'.site_url().'gbm-administration/print-nursery/'.$seedling_production_id.'/'.$nursery_tally_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to print'.$monthName.'?\');" title="Print '.$monthName.'" target ="_blank"><i class="fa fa-print"></i></a></td>
 
 						<td><a href="'.site_url().'gbm-administration/delete-county/'.$nursery_tally_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to delete '.$monthName.'?\');" title="Delete '.$monthName.'"><i class="fa fa-trash"></i></a></td>
 						
