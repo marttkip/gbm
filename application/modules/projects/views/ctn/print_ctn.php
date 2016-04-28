@@ -86,7 +86,7 @@ if($nursery_info->num_rows()>0)
      <div class="row" >
         	<div class="col-md-6">
             	 <strong>
-                  OUR ADDRESS IS: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php '';?></span>
+                  OUR ADDRESS IS: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $address;?></span>
                   
             </div>
      

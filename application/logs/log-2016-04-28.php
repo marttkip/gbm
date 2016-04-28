@@ -3289,3 +3289,156 @@ DEBUG - 2016-04-28 10:07:53 --> Model Class Initialized
 DEBUG - 2016-04-28 10:07:53 --> File loaded: application/modules/projects/views/ctn/print_ctn.php
 DEBUG - 2016-04-28 10:07:53 --> Final output sent to browser
 DEBUG - 2016-04-28 10:07:53 --> Total execution time: 0.5484
+DEBUG - 2016-04-28 10:10:05 --> Config Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Hooks Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 10:10:05 --> URI Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Router Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Output Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Security Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Input Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 10:10:05 --> Language Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Language Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Config Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Loader Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 10:10:05 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 10:10:05 --> Database Driver Class Initialized
+ERROR - 2016-04-28 10:10:05 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\gbm\system\database\drivers\mysql\mysql_driver.php 92
+DEBUG - 2016-04-28 10:10:05 --> Session Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 10:10:05 --> Session routines successfully run
+DEBUG - 2016-04-28 10:10:05 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Pagination Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Email Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Controller Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> Ctn MX_Controller Initialized
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/projects/models/ctn_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/projects/models/meeting_model.php
+DEBUG - 2016-04-28 10:10:05 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:05 --> File loaded: application/modules/projects/views/ctn/print_ctn.php
+DEBUG - 2016-04-28 10:10:05 --> Final output sent to browser
+DEBUG - 2016-04-28 10:10:05 --> Total execution time: 0.7573
+DEBUG - 2016-04-28 10:10:14 --> Config Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Hooks Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 10:10:14 --> URI Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Router Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Output Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Security Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Input Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 10:10:14 --> Language Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Language Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Config Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Loader Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 10:10:14 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 10:10:14 --> Database Driver Class Initialized
+ERROR - 2016-04-28 10:10:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\gbm\system\database\drivers\mysql\mysql_driver.php 92
+DEBUG - 2016-04-28 10:10:14 --> Session Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 10:10:14 --> Session routines successfully run
+DEBUG - 2016-04-28 10:10:14 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Pagination Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Email Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Controller Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> Ctn MX_Controller Initialized
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/projects/models/ctn_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/projects/models/meeting_model.php
+DEBUG - 2016-04-28 10:10:14 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:14 --> File loaded: application/modules/projects/views/ctn/print_ctn.php
+DEBUG - 2016-04-28 10:10:14 --> Final output sent to browser
+DEBUG - 2016-04-28 10:10:14 --> Total execution time: 0.6838
+DEBUG - 2016-04-28 10:10:57 --> Config Class Initialized
+DEBUG - 2016-04-28 10:10:57 --> Hooks Class Initialized
+DEBUG - 2016-04-28 10:10:57 --> Utf8 Class Initialized
+DEBUG - 2016-04-28 10:10:57 --> UTF-8 Support Enabled
+DEBUG - 2016-04-28 10:10:57 --> URI Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Router Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Output Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Security Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Input Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2016-04-28 10:10:58 --> Language Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Language Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Config Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Loader Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Helper loaded: url_helper
+DEBUG - 2016-04-28 10:10:58 --> Helper loaded: form_helper
+DEBUG - 2016-04-28 10:10:58 --> Database Driver Class Initialized
+ERROR - 2016-04-28 10:10:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\gbm\system\database\drivers\mysql\mysql_driver.php 92
+DEBUG - 2016-04-28 10:10:58 --> Session Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Helper loaded: string_helper
+DEBUG - 2016-04-28 10:10:58 --> Session routines successfully run
+DEBUG - 2016-04-28 10:10:58 --> Form Validation Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Pagination Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Encrypt Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Email Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Controller Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> Ctn MX_Controller Initialized
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/admin/models/admin_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/auth/models/auth_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/site/models/site_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/administration/models/reports_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/admin/models/sections_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/hr/models/personnel_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/admin/models/users_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/projects/models/ctn_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/projects/models/seedling_production_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/projects/models/meeting_model.php
+DEBUG - 2016-04-28 10:10:58 --> Model Class Initialized
+DEBUG - 2016-04-28 10:10:58 --> File loaded: application/modules/projects/views/ctn/print_ctn.php
+DEBUG - 2016-04-28 10:10:58 --> Final output sent to browser
+DEBUG - 2016-04-28 10:10:58 --> Total execution time: 0.6940
