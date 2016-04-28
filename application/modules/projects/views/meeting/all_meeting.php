@@ -125,6 +125,12 @@
 	
 ?>
 <?php echo $this->load->view('project_areas/project_area_header','',true);?>
+<div class="row">
+	<div class="col-md-12">
+			<a href="<?php echo site_url();?>tree-planting/area-locations/<?php echo $parent_project_area_id?>" class="btn btn-info btn-sm pull-left" ><i class="fa fa-arrow-left"></i> GO TO STEP ONE : PRIORITIZING OF PROJECTS</a>
+			<a href="<?php echo site_url();?>tree-planting/community-groups/<?php echo $parent_project_area_id?>" class="btn btn-info btn-sm pull-right" > GOT TO STEP THREE : COMMUNITY / NURSERY GROUPS <i class="fa fa-arrow-right"></i></a>
+	</div>
+</div>
 <section class="panel panel-featured panel-featured-success">
     <header class="panel-heading">
          <h2 class="panel-title pull-left"><?php echo $title;?></h2>

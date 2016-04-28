@@ -17,7 +17,7 @@ class Seedling_production extends admin {
 	{
 
 			
-		$where = 'community_group.community_group_id = community_group.community_group_id AND community_group.project_area_id = project_areas.project_area_id AND seedling_production.project_area_id = '.$project_area_id;
+		$where = 'community_group.is_ctn = 0 AND community_group.community_group_id = community_group.community_group_id AND community_group.project_area_id = project_areas.project_area_id AND community_group.community_group_id = seedling_production.nursery_id AND seedling_production.project_area_id = '.$project_area_id;
 		$table = 'seedling_production,community_group,project_areas';
 	
 		$segment = 4;
@@ -68,7 +68,7 @@ class Seedling_production extends admin {
 
 		$community_group_order = 'community_group.community_group_name';
 		$community_group_table = 'community_group';
-		$community_group_where = 'community_group.community_group_status = 1 AND community_group.community_group_id NOT IN (SELECT community_group_id FROM seedling_production)';
+		$community_group_where = 'community_group.community_group_status = 1 AND community_group.is_ctn = 0 AND community_group.project_area_id = '.$project_area_id.' AND community_group.community_group_id NOT IN (SELECT nursery_id FROM seedling_production)';
 
 		$community_group_query = $this->seedling_production_model->get_active_list($community_group_table, $community_group_where, $community_group_order);
 		$rs8 = $community_group_query->result();

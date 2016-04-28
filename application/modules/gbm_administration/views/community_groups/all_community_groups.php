@@ -123,6 +123,12 @@
 		}
 ?>
 <?php echo $this->load->view('projects/project_areas/project_area_header','',true);?>
+<div class="row">
+	<div class="col-md-12">
+			<a href="<?php echo site_url();?>tree-planting/trainings/<?php echo $project_area_id?>" class="btn btn-info btn-sm pull-left" ><i class="fa fa-arrow-left"></i> GO TO STEP TWO : TRAININGS AND WORKSHOPS</a>
+			<a href="<?php echo site_url();?>tree-planting/seedling-production/<?php echo $project_area_id?>" class="btn btn-info btn-sm pull-right" > GOT TO STEP FOUR : SEEDLINGS PRODUCTION <i class="fa fa-arrow-right"></i></a>
+	</div>
+</div>
 <section class="panel">
 	<header class="panel-heading">						
 		<h2 class="panel-title"><?php echo $title;?></h2>

@@ -1,4 +1,11 @@
 <?php echo $this->load->view('projects/project_areas/project_area_header','',true);?>
+
+<div class="row">
+	<div class="col-md-12">
+			<a href="<?php echo site_url();?>tree-planting/seedling-production/<?php echo $project_area_id?>" class="btn btn-info btn-sm pull-left" ><i class="fa fa-arrow-left"></i> GO TO STEP FOUR : SEEDLINGS PRODUCTION</a>
+			<a href="<?php echo site_url();?>tree-planting/ctn-detail/<?php echo $project_area_id?>" class="btn btn-info btn-sm pull-right" > GOT TO STEP SIX : PLANTING PROCESS <i class="fa fa-arrow-right"></i></a>
+	</div>
+</div>
 <?php
 $result = '';
 if($ctn_query->num_rows() == 1)
@@ -82,11 +89,7 @@ if($ctn_query->num_rows() == 1)
 			';
 	?>
 
-	<div class="row " style="margin-top: 10px;">
-			<div class="table-responsive">
-				<?php echo $result;?>	
-			</div>
-	</div>
+
 	
 
 		<div class="row">
@@ -113,11 +116,18 @@ if($ctn_query->num_rows() == 1)
 				}
 				?>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-10">
+				 		<div class="table-responsive">
+							<?php echo $result;?>	
+						</div>
+				 	</div>
+					<div class="col-md-2">
 					 <a href="<?php echo base_url();?>tree-planting/project-area-detail/<?php echo $project_area_id;?>" class="btn btn-info btn-sm pull-right">Back to Project Area Detail</a>
 					</div>
 				</div>
+
 				 <div class="row">
+				 	
 				 	<div class="col-md-8">
 				 		<section class="panel">
 							<header class="panel-heading">

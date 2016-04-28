@@ -96,10 +96,7 @@
 						<td>'.$last_modified.'</td>
 						<td>'.$modified_by.'</td>
 						<td>'.$status.'</td>
-						<td>
-							<a  class="btn btn-sm btn-success" id="open_tenant_info'.$seedling_production_id.'" onclick="get_tenant_info('.$seedling_production_id.');" ><i class="fa fa-folder"></i> Production Detail</a>
-							<a  class="btn btn-sm btn-warning" id="close_tenant_info'.$seedling_production_id.'"  onclick="close_tenant_info('.$seedling_production_id.')" style="display:none;"><i class="fa fa-folder-open"></i> Close Production Info</a>
-						</td>
+						
 						<td><a href="'.site_url().'tree-planting/seedling-tally/'.$seedling_production_id.'/'.$project_area_id.'" class="btn btn-sm btn-warning" ><i class="fa fa-eye"></i></a></td>
 						<td>'.$button.'</td>
 
@@ -126,7 +123,17 @@
 			$result .= "There are no seedling productions added";
 		}
 ?>
+<!-- <td>
+	<a  class="btn btn-sm btn-success" id="open_tenant_info'.$seedling_production_id.'" onclick="get_tenant_info('.$seedling_production_id.');" ><i class="fa fa-folder"></i> Production Detail</a>
+	<a  class="btn btn-sm btn-warning" id="close_tenant_info'.$seedling_production_id.'"  onclick="close_tenant_info('.$seedling_production_id.')" style="display:none;"><i class="fa fa-folder-open"></i> Close Production Info</a>
+</td> -->
 <?php echo $this->load->view('project_areas/project_area_header','',true);?>
+<div class="row">
+	<div class="col-md-12">
+			<a href="<?php echo site_url();?>tree-planting/community-groups/<?php echo $project_area_id?>" class="btn btn-info btn-sm pull-left" ><i class="fa fa-arrow-left"></i> GO TO STEP THREE : COMMUNITY / NURSERY GROUPS</a>
+			<a href="<?php echo site_url();?>tree-planting/ctn-detail/<?php echo $project_area_id?>" class="btn btn-info btn-sm pull-right" > GOT TO STEP FIVE : GBM CENTRAL TREE NURSERY <i class="fa fa-arrow-right"></i></a>
+	</div>
+</div>
 <section class="panel">
 	<header class="panel-heading">
 		<h2 class="panel-title"><?php echo $title;?></h2>
@@ -158,7 +165,7 @@
 									            
 									            <div class="col-lg-7">
 									            	<select id='community_group_id' name='community_group_id' class='form-control custom-select ' required>
-						                              <option value=''>None - Please Select a member type</option>
+						                              <option value=''>None - Please Select a Community Group</option>
 						                              <?php echo $community_group_list;?>
 						                            </select>
 									            </div>

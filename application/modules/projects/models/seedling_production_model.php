@@ -80,7 +80,7 @@ class Seedling_production_model extends CI_Model
 	* 	@param string $where
 	*
 	*/
-	public function get_all_seedling_records($table, $where, $per_page, $page, $order = 'community_group_name', $order_method = 'ASC')
+	public function get_all_seedling_records($table, $where, $per_page, $page, $order = 'community_group.community_group_name', $order_method = 'ASC')
 	{
 		//retrieve all users
 		$this->db->from($table);

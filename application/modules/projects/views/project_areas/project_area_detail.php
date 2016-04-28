@@ -104,17 +104,42 @@
 	<div class="col-md-6">
 		<section class="panel">
 			<div class="panel-body">
+				<?php
+					$nursery_queries = $this->project_areas_model->get_project_areas_nurseries($project_area_id);
+					$parameters3 = '';
+					if($nursery_queries->num_rows() > 0)
+					{
+						
+						foreach ($nursery_queries->result() as $key_items) {
+							# code...
+							$community_group_id = $key_items->community_group_id;
+							$community_group_name = $key_items->community_group_name;
+
+							// get the seedling supplied
+
+							$seedling_where = 'community_group_id = '.$community_group_id;
+							$seedling_table = 'community_group_member';
+
+							// count target areas
+							$group_members = $this->users_model->count_items($seedling_table, $seedling_where);
+
+							$parameters3 .= "['$community_group_name',$group_members,'#b87333'],";
+
+								
+							}
+						
+					}
+					// var_dump($parameters3); die();
+				?>
+
 				<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 				  <script type="text/javascript">
 				    google.charts.load("current", {packages:['corechart']});
 				    google.charts.setOnLoadCallback(drawChart);
 				    function drawChart() {
 				      var data = google.visualization.arrayToDataTable([
-				        ["Element", "Density", { role: "style" } ],
-				        ["Copper", 8.94, "#b87333"],
-				        ["Silver", 10.49, "silver"],
-				        ["Gold", 19.30, "gold"],
-				        ["Platinum", 21.45, "color: #e5e4e2"]
+				        ["Nursery", "Members", { role: "style" } ],
+				        <?php echo $parameters3;?>
 				      ]);
 
 				      var view = new google.visualization.DataView(data);
@@ -126,7 +151,7 @@
 				                       2]);
 
 				      var options = {
-				        title: "Density of Precious Metals, in g/cm^3",
+				        title: "Density of Community / Nursery Groups , in No. of Members",
 				        
 				        height: 400,
 				        bar: {groupWidth: "70%"},
@@ -205,6 +230,43 @@
 		</section>
 	</div>
 	<div class="col-md-12">
+		<?php
+		//  get community shades and the items they have planted
+		// get the project areas under all the 
+		$project_areas_child = $this->project_areas_model->all_project_areas_children($project_area_id);
+		$parameters4 = '';
+		if($project_areas_child->num_rows() > 0)
+		{
+			foreach ($project_areas_child->result() as $key_children) {
+				# code...
+				$child_id = $key_children->project_area_id;
+				$child_name = $key_children->project_area_name;
+
+				// generate number 
+
+				// genetate another number
+
+				// generate a greater number
+				// $child_name = str_replace(' ', '', $child_name);
+
+				// shorten the name
+				// $shorten_name = $this->project_areas_model->get_random_string($child_name,3); 
+
+				// $population = $this->project_areas_model->generateRandomInteger(7); 
+
+				$seedlings = $this->project_areas_model->generateRandomInteger(4); 
+
+				$survival = $this->project_areas_model->generateRandomInteger(3); 
+
+				$population = $seedlings + $survival;
+				$rate = $population/2;
+
+				$parameters4 .= "['$child_name',$survival,$seedlings,$rate],";
+
+			}
+		}
+
+		?>
 		<script type="text/javascript">
 		      google.charts.setOnLoadCallback(drawVisualization);
 
@@ -212,20 +274,16 @@
 		      function drawVisualization() {
 		        // Some raw data (not necessarily accurate)
 		        var data = google.visualization.arrayToDataTable([
-		         ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
-		         ['2004/05',  165,      938,         522,             998,           450,      614.6],
-		         ['2005/06',  135,      1120,        599,             1268,          288,      682],
-		         ['2006/07',  157,      1167,        587,             807,           397,      623],
-		         ['2007/08',  139,      1110,        615,             968,           215,      609.4],
-		         ['2008/09',  136,      691,         629,             1026,          366,      569.6]
+		         ['Target Areas', 'Planted Trees', 'Surviving Trees', 'Survival Rate'],
+		         <?php echo $parameters4;?>
 		      ]);
 
 		    var options = {
-		      title : 'Monthly Coffee Production by Country',
-		      vAxis: {title: 'Cups'},
-		      hAxis: {title: 'Month'},
+		      title : 'Target Areas Survival Rate',
+		      vAxis: {title: 'Survival Rate'},
+		      hAxis: {title: 'Target Areas'},
 		      seriesType: 'bars',
-		      series: {5: {type: 'line'}}
+		      series: {2: {type: 'line'}}
 		    };
 
 		    var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));

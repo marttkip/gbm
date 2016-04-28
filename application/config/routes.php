@@ -53,6 +53,7 @@ $route['logout-admin'] = 'auth/logout';
 *	Admin Routes
 */
 $route['dashboard'] = 'admin/dashboard';
+$route['dashboard/dashboard'] = 'admin/dashboard';
 $route['change-password'] = 'admin/users/change_password';
 
 /*

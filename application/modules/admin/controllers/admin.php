@@ -12,6 +12,7 @@ class Admin extends MX_Controller
 		$this->load->model('administration/reports_model');
 		$this->load->model('admin/sections_model');
 		$this->load->model('hr/personnel_model');
+		$this->load->model('admin/users_model');
 		
 		if(!$this->auth_model->check_login())
 		{

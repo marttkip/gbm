@@ -4,6 +4,15 @@ $contacts = $this->site_model->get_contacts();
 ?>
 <section class="panel">
 	<header class="panel-heading">
+		<h2 class="panel-title"><?php echo $title;?></h2>
+	</header>
+	<?php echo $this->load->view('projects/dashboard_header','',true)?>
+	<?php echo $this->load->view('projects/dashboard_body','',true)?>
+</section>
+
+
+<section class="panel">
+	<header class="panel-heading">
             <h5 class="pull-left"><i class="icon-reorder"></i>Profile Details</h5>
           <div class="widget-icons pull-right">
 

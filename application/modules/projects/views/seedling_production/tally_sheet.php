@@ -138,10 +138,7 @@
 						<td>'.$last_modified.'</td>
 						<td>'.$modified_by.'</td>
 						<td>'.$status.'</td>
-						<td>
-							<a  class="btn btn-sm btn-success" id="open_tenant_info'.$nursery_tally_id.'" onclick="get_tenant_info('.$nursery_tally_id.');" ><i class="fa fa-folder"></i> Production Detail</a>
-							<a  class="btn btn-sm btn-warning" id="close_tenant_info'.$nursery_tally_id.'"  onclick="close_tenant_info('.$nursery_tally_id.')" style="display:none;"><i class="fa fa-folder-open"></i> Close Production Info</a>
-						</td>
+						
 						<td><a href="'.site_url().'tree-planting/seedling-tally/'.$nursery_tally_id.'/'.$project_area_id.'" class="btn btn-sm btn-warning" ><i class="fa fa-eye"></i></a></td>
 						<td>'.$button.'</td>
 						<td><a href="'.site_url().'gbm-administration/print-nursery/'.$nursery_tally_id.'/'.$seedling_production_id.'" class="btn btn-sm btn-danger" onclick="return confirm(\'Do you really want to print'.$monthName.'?\');" title="Print '.$monthName.'"><i class="fa fa-print"></i></a></td>
@@ -170,11 +167,14 @@
 			$result .= "There are no seedling productions added";
 		}
 ?>
-
+<!-- <td>
+	<a  class="btn btn-sm btn-success" id="open_tenant_info'.$nursery_tally_id.'" onclick="get_tenant_info('.$nursery_tally_id.');" ><i class="fa fa-folder"></i> Production Detail</a>
+	<a  class="btn btn-sm btn-warning" id="close_tenant_info'.$nursery_tally_id.'"  onclick="close_tenant_info('.$nursery_tally_id.')" style="display:none;"><i class="fa fa-folder-open"></i> Close Production Info</a>
+</td> -->
 <section class="panel">
 	<header class="panel-heading">
 		<h2 class="panel-title"><?php echo $title;?></h2>
-		<a href="<?php echo site_url();?>tree-planting/seedling-production/<?php echo $seedling_production_id;?>" class="btn btn-default btn-sm pull-right" style="margin-top:-25px;">Back to Seedling Production</a>
+		<a href="<?php echo site_url();?>tree-planting/seedling-production/<?php echo $project_area_id;?>" class="btn btn-default btn-sm pull-right" style="margin-top:-25px;">Back to Seedling Production</a>
 		<a  class="btn btn-sm btn-success pull-right" id="open_new_community_group_member" onclick="get_new_community_group_member();" style="margin-top:-25px;margin-right:5px;">Add seedling tally</a>
 		<a  class="btn btn-sm btn-warning pull-right" id="close_new_community_group_member" style="display:none; margin-top:-25px;margin-right:5px;" onclick="close_new_community_group_member();">Close seedling tally</a>
 	</header>
