@@ -165,7 +165,7 @@ if($seedlings_rs->num_rows() > 0)
     	<div class="row" >
         	<div class="col-md-12">
             	 <strong>
-                    1. Nursery Name:</strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $nursery_name;?></span>
+                    1. Nursery Name:</strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $nursery_name;?></span>
                   
             </div>
         </div>
@@ -173,7 +173,7 @@ if($seedlings_rs->num_rows() > 0)
         <div class="row" >
         	<div class="col-md-12">
             	 <strong>
-                  2. Report For the month of : </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $month;?></span>
+                  2. Report For the month of : </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $month;?></span>
                   
             </div>
          </div>
@@ -253,18 +253,18 @@ if($seedlings_rs->num_rows() > 0)
         </div>
             <div class="row" >
         	<div class="col-md-6">
-                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $indeginous_not_ready;?></span>
+                    <strong>(a) Indigenous species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $indeginous_not_ready;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $fruits_not_ready;?></span>
+                   <strong>(b) Fruits: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $fruits_not_ready;?></span>
             </div>
         </div>
         <div class="row" >
         	<div class="col-md-6">
-                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $exotic_not_ready;?></span>
+                    <strong>(c)Foreign Species: </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $exotic_not_ready;?></span>
             </div>
             <div class="col-md-6">
-                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:5px"><?php echo $total_not_ready;?></span>
+                   <strong>(d) Total(all inclusive): </strong><span style="border-bottom: 1px dotted #000; padding-bottom:4px"><?php echo $total_not_ready;?></span>
             </div>
         </div>
         </br>
